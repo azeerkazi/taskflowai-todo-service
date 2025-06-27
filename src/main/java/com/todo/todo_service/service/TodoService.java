@@ -1,7 +1,8 @@
 package com.todo.todo_service.service;
 
 import org.springframework.stereotype.Service;
-import com.todo.todo_service.handler.todo.dto.TodoRequest;
+
+import com.todo.todo_service.controller.todo.dto.TodoRequest;
 import com.todo.todo_service.model.Todo;
 import com.todo.todo_service.publisher.SnsPublisherService;
 import com.todo.todo_service.repository.TodoRepository;

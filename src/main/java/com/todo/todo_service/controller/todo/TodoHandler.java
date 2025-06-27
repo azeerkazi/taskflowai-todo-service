@@ -1,4 +1,4 @@
-package com.todo.todo_service.handler.todo;
+package com.todo.todo_service.controller.todo;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.todo.todo_service.handler.todo.dto.TodoRequest;
+import com.todo.todo_service.controller.todo.dto.TodoRequest;
 import com.todo.todo_service.model.Todo;
 import com.todo.todo_service.service.TodoService;
 

@@ -1,4 +1,4 @@
-package com.todo.todo_service.handler.todo.dto;
+package com.todo.todo_service.controller.todo.dto;
 
 import java.time.LocalDate;
 

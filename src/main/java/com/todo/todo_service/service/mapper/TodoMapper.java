@@ -2,9 +2,10 @@ package com.todo.todo_service.service.mapper;
 
 import java.util.UUID;
 import java.time.LocalDate;
+
+import com.todo.todo_service.controller.todo.dto.TodoRequest;
 import com.todo.todo_service.model.Todo;
 import org.springframework.stereotype.Component;
-import com.todo.todo_service.handler.todo.dto.TodoRequest;
 
 @Component
 public class TodoMapper {
