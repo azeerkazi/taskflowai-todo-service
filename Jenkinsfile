@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout the code from GitHub
-                git url: 'https://github.com/your-username/your-repository.git', branch: 'main'
+               sh 'git accessed'
             }
         }
         
