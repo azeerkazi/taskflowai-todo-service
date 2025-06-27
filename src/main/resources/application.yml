@@ -1,0 +1,7 @@
+cloud:
+  aws:
+    dynamodb:
+      table-name: todos
+    sns:
+      topic-arn: arn:aws:sns:us-east-1:905418067832:todo-events-topic
+    region: us-east-1
