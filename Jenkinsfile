@@ -2,11 +2,6 @@ pipeline {
     agent any
     
     stages {
-        stage('Checkout') {
-            steps {
-               sh 'git accessed'
-            }
-        }
         
         stage('Build') {
             steps {
